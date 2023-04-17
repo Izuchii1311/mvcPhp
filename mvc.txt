@@ -61,3 +61,17 @@ membuat class Home.php dan About.php di controllers dan membuat Class beserta Me
 
 di dalam App membuat controller dan method default.
 dan melakukan sesuatu jika parameter kosong, hingga mengambil data di url untuk menangkap parameternya.
+
+
+#5 View ===========================
+
+Akan merubah isi dari tiap tiap method di controllernya (About.php & Home.php)
+yang akan memanggil folder views
+
+Menggunakan Controller.php sebagai fungsi untuk mengirimkan url dan memanggil views
+sekarang tiap class About dan Home menjadi child class dari Controller dan akan menerima data
+
+Class About dan Home akan memanggil Method view di Controller.php dan akan menampilkan halaman html untuk about dan home sekalian juga mengirimkan data ke halaman tersebut.
+Di folder about dan home dalam views akan menerima data dan menampilkan tampilan utama halaman tersebut.
+
+Memisahkan header dan footer di setiap halamannya agar tidak melakukan perulangan code.
