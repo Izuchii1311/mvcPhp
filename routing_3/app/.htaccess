@@ -1,0 +1,2 @@
+# Jika ada user membuka folder app dan folder folder di dalamnya, Selama folder itu tidak memiliki file index maka jangan tampilkan isi foldernya atau block Aksesnya.
+Options -Indexes

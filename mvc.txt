@@ -42,3 +42,11 @@ Membuat sebuah folder App
 
 
 *class yang ada di dalam Folder controllers akan extends ke class Controller.php
+
+#3 Routing ===========================
+
+Melakukan konfigurasi url menggunakan file .htaccess
+htaccess adalah file untuk memodifikasi konfigurasi dari server apache (dapat dilakukan perfolder).
+Membuat file .htaccess untuk folder app dan public
+
+Memecah url menjadi array dan mengahpus / terakhir
