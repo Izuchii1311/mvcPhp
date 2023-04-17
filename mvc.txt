@@ -26,3 +26,19 @@ Kenapa MVC?
     > Mengimplementasi Konsep OOP.
     > Digunakan oleh Web Application Framework.
 
+#2 Persiapan ===========================
+Membuat sebuah folder Public (untuk menyimpan css, js dan image).
+    > membuat file utama yang akan diakses oleh user - index.php
+
+Membuat sebuah folder App 
+    > folder core (sebagai inti dari mvc - membuat file untuk mengelola routing)
+        > membuat file App.php dan Controller.php
+    > folder controllers
+    > folder views (berisi antarmuka yang akan disajikan oleh controllers)
+        membuat sub folder lagi untuk menyimpan kumpulan kumpulan views sesuai dengan controller yg memanggilnya nanti
+        > folder home
+        > membuat file init.php sebagai file bootstraping
+    > folder models
+
+
+*class yang ada di dalam Folder controllers akan extends ke class Controller.php
