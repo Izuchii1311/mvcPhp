@@ -75,3 +75,14 @@ Class About dan Home akan memanggil Method view di Controller.php dan akan menam
 Di folder about dan home dalam views akan menerima data dan menampilkan tampilan utama halaman tersebut.
 
 Memisahkan header dan footer di setiap halamannya agar tidak melakukan perulangan code.
+
+
+#6 Assets ===========================
+
+Download Bootstrap(Css & Js) dan pindahkan ke folder Public.
+Memanggil assets dari css dan js di bootstrap
+
+Membuat constanta di dalam folder core untuk menyimpan
+http://localhost/BelajarPHP/mvcPhp/assets_6/public
+
+merubah tampilan dari halaman home dan about
