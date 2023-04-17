@@ -26,6 +26,7 @@ Kenapa MVC?
     > Mengimplementasi Konsep OOP.
     > Digunakan oleh Web Application Framework.
 
+
 #2 Persiapan ===========================
 Membuat sebuah folder Public (untuk menyimpan css, js dan image).
     > membuat file utama yang akan diakses oleh user - index.php
@@ -43,6 +44,7 @@ Membuat sebuah folder App
 
 *class yang ada di dalam Folder controllers akan extends ke class Controller.php
 
+
 #3 Routing ===========================
 
 Melakukan konfigurasi url menggunakan file .htaccess
@@ -50,3 +52,12 @@ htaccess adalah file untuk memodifikasi konfigurasi dari server apache (dapat di
 Membuat file .htaccess untuk folder app dan public
 
 Memecah url menjadi array dan mengahpus / terakhir
+
+
+#4 Controller ===========================
+
+membuat property default di App.php
+membuat class Home.php dan About.php di controllers dan membuat Class beserta Method default
+
+di dalam App membuat controller dan method default.
+dan melakukan sesuatu jika parameter kosong, hingga mengambil data di url untuk menangkap parameternya.
