@@ -101,3 +101,21 @@ Membuat file dan folder baru mahasiswa untuk halaman mahasiswa
 Membuat Mahasiswa_model dan memanggil data dari modelnya di controllers mahasiswa.
 
 Melakukan connect ke database untuk mahasiswa_model dan menampilkan data dari database phpmvc
+
+
+#8 Database Wrapper ===========================
+
+Akan Membungkus Database di dalam sebuah Class Khusus.
+
+Membuat sebuah folder di app sebagai konfigurasi dari mysql.
+di dalamnya membuat juga file config.php yang isinya Data Data dari database berupa Konstanta(define).
+
+Isi dari file constants.php yaitu
+define('BASEURL', 'http://localhost/BelajarPHP/mvcPhp/database_wrapper_8/public');
+pindahkan ke config dan hapus file constants.phpnya 
+
+membuat file baru di dalam corenya yaitu database.php
+pindahkan construct dari Model Mahasiswa ke Database.php di core
+
+Sebelum digunakan di model mahasiswanya Databasenya harus di load terlebih dahulu.
+menampilkan data ke halaman index, dan juga membuat halaman baru yaitu detail
