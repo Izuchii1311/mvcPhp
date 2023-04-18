@@ -86,3 +86,18 @@ Membuat constanta di dalam folder core untuk menyimpan
 http://localhost/BelajarPHP/mvcPhp/assets_6/public
 
 merubah tampilan dari halaman home dan about
+
+
+#7 Model ===========================
+Mendapatkan data tidak dari url http://localhost/BelajarPHP/mvcPhp/assets_6/public/about/Izuchii/Mahasiswa
+tetapi mendapatkan data melalui model
+
+Model isinya tidak hanya data, bisa berisi object domain, service, data mapper (intinya bisnis logic yang akan dibuat).
+
+Memanggil model di Home.php 
+dan membuat file User_model.php dimana akan mengirimkan data ke halaman Home.php
+
+Membuat file dan folder baru mahasiswa untuk halaman mahasiswa
+Membuat Mahasiswa_model dan memanggil data dari modelnya di controllers mahasiswa.
+
+Melakukan connect ke database untuk mahasiswa_model dan menampilkan data dari database phpmvc
