@@ -119,3 +119,15 @@ pindahkan construct dari Model Mahasiswa ke Database.php di core
 
 Sebelum digunakan di model mahasiswanya Databasenya harus di load terlebih dahulu.
 menampilkan data ke halaman index, dan juga membuat halaman baru yaitu detail
+
+
+#9 Insert Data ===========================
+
+Akan melakukan CRUD dan menggunakan Modal Box dari Bootstrap 4
+
+Melakukan editing pada halaman mahasiswa/index dengan membuat button dan modal box.
+Di dalam modal box membuat sebuah form yang akan mengirimkan data.
+
+Data akan di kirimkan ke halaman mahasiswa/tambah dengan menjalakankan method untuk tambahDataMahasiswa() dan jika ada data yg dirikimkan atau ditambahkan ke baris baru yang ada di database maka kembalikan user ke halaman indexnya.
+Di dalam model, Mahasiswa_model membuat model untuk melakukan query data ke database, Dan dapat mengirimkan nilai.
+Agar dapat mengirimkan nilai maka mahasiswa_model memanggil method rowCount() dari folder core yaitu Database.php yang berfungsi untuk mengembalikan nilai apabila ada baris baru yang ditambahkan.
