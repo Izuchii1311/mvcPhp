@@ -131,3 +131,17 @@ Di dalam modal box membuat sebuah form yang akan mengirimkan data.
 Data akan di kirimkan ke halaman mahasiswa/tambah dengan menjalakankan method untuk tambahDataMahasiswa() dan jika ada data yg dirikimkan atau ditambahkan ke baris baru yang ada di database maka kembalikan user ke halaman indexnya.
 Di dalam model, Mahasiswa_model membuat model untuk melakukan query data ke database, Dan dapat mengirimkan nilai.
 Agar dapat mengirimkan nilai maka mahasiswa_model memanggil method rowCount() dari folder core yaitu Database.php yang berfungsi untuk mengembalikan nilai apabila ada baris baru yang ditambahkan.
+
+
+#10 Flash Message ===========================
+
+Membuat pesan kilat, yang akan menampilkan sesuatu ketika kita telah selesai mengerjakan suatu aksi di dalam CRUD MVC.
+Dalam membuat flash message akan membutuhkan sebuah konsep $_SESSION.
+
+Membuat Class baru di dalam sebuah Folder Core, untuk menangani Flash Message.
+Di dalam class Flasher membuat 2 buat method 1 untuk melakukan setFlasher 1 lagi utuk menampilkan Flashernya jika dipanggil.
+
+Agar Flashernya jalan panggil Flasher di file init. dan di file public di halaman Indexnya set Session_start agar session sudah dapat digunakan.
+
+Kemudian di function tambah di dalam controllers - Mahasiswa.php
+lakukan setFlashernya ketika insert data success dan lakukan juga flasher ketika set data Gagal.
