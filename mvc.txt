@@ -145,3 +145,10 @@ Agar Flashernya jalan panggil Flasher di file init. dan di file public di halama
 
 Kemudian di function tambah di dalam controllers - Mahasiswa.php
 lakukan setFlashernya ketika insert data success dan lakukan juga flasher ketika set data Gagal.
+
+
+#11 Delete ===========================
+
+Membuat button delete di halaman mahasiswa/index.
+Membuat method hapus di controllers Mahasiswa, tidak beda jauh dengan method tambah namun untuk hapus menerima parameter id.
+Selanjutnya buat method baru di model milik mahasiwa.
