@@ -152,3 +152,20 @@ lakukan setFlashernya ketika insert data success dan lakukan juga flasher ketika
 Membuat button delete di halaman mahasiswa/index.
 Membuat method hapus di controllers Mahasiswa, tidak beda jauh dengan method tambah namun untuk hapus menerima parameter id.
 Selanjutnya buat method baru di model milik mahasiwa.
+
+
+#12 Update Data + AJAX ===========================
+
+Menambahkan button edit di halaman mahasiswa/index dan panggil modalbox.
+Ketika tombol edit diklik maka akan menampilkan modal box dengan menampilkan data mahasiswa yang dipilih.
+
+Akan merubah isi modal box menggunakan javaScript.
+Membuat file script.js di dalam folder public, untuk memanggilnya tambahkan di bagian template footer.
+Jangan Lupa Untuk Memanggil CDN Jquery.
+
+Ajax adalah sebauh teknologi untuk yg membuat permintaan data / request datanya terjadi di sebagian elementnya saja.
+tanpa perlu melakukan reload 1 halaman.
+Memberikan atribut data-id di button edit
+
+
+++++ CODE ERROR JQUERY NOT WORKING ++++
