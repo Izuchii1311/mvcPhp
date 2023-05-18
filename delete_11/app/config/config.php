@@ -1,6 +1,6 @@
 <?php
 
-define('BASEURL', 'http://localhost/BelajarPHP/mvcPhp/delete_11/public');
+define('BASEURL', 'http://localhost:8080/BelajarPHP/mvcPhp/delete_11/public');
 
 // Data Data dari database berupa Konstanta(define)
 define('DB_HOST', 'localhost');
